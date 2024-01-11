@@ -47,7 +47,7 @@ Run the following commands:
 After installing Boost, compile the program using a C++ compiler. For example:
 
     bash
-    g++ -o combined_program combined_program.cpp -lboost_date_time -std=c++11
+    g++ -o combined_program.cpp -lboost_date_time -std=c++11
     
 Replace combined_program with the name of your C++ source file.
 
@@ -58,6 +58,7 @@ Run the compiled program:
 # Usage
 Follow on-screen instructions to use the lap timer, stopwatch, time display, and time zone features.
 
-    javascript
+    css
 
-    Replace `combined_program.cpp` with the actual name of your C++ source file.
+    This should address the formatting issues.
+
