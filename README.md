@@ -19,7 +19,7 @@ Before compiling the program, ensure that you have the Boost C++ Libraries insta
    
    bash
    sudo yum install boost-devel         #For Red Hat-based systems
-1 . Building from Source:
+2 . Building from Source:
 Download Boost from the official website.
 Extract the downloaded archive.
 Navigate to the Boost directory and run the following commands:
