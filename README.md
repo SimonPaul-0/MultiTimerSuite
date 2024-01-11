@@ -1,43 +1,62 @@
-## MultiTimer Suite
-The MultiTimer Suite is a versatile C++ program that combines various time-related functionalities into a single application. It offers the following features:
+# Combined Program: Lap Timer, Stopwatch, Time, and Time Zone
 
-## Lap Timer: Record laps, pause/resume, and calculate lap times.
+## Overview
 
-## Stopwatch: Measure elapsed time with the ability to start, stop, and record laps.
+This C++ program combines functionalities of a lap timer, stopwatch, time display, and time zone conversion.
 
-## Current Time Display: View the current local time.
+## Compilation and Execution
 
-## Time Zone Conversion: Input a country or time zone to get the current time in that location.
+Before compiling the program, ensure that you have the Boost C++ Libraries installed on your system.
 
-## Usage
-Lap Timer and Stopwatch:
+### Installing Boost
 
-Press Enter to record a lap.
-Type 'p' to pause/resume the timer.
-Type 'exit' to stop the timer and view total elapsed time and lap times.
-Current Time Display:
+#### Linux
 
-Provides the current local time.
-Time Zone Conversion:
+1. **Using Package Manager (e.g., apt or yum):**
+   ```bash
+   sudo apt-get install libboost-all-dev  # For Debian-based systems
+   bash
+   sudo yum install boost-devel         
+# For Red Hat-based systems
+1 . Building from Source:
+Download Boost from the official website.
+Extract the downloaded archive.
+Navigate to the Boost directory and run the following commands:
 
-Enter a country or time zone to get the current time in that location.
-## How to Run
-Compile the program using a C++ compiler.
-Run the compiled executable.
-## Contributing
-Contributions are welcome! If you have ideas for improvements or new features, feel free to contribute.
+    bash
+    ./bootstrap.sh
+    ./b2
+    sudo ./b2 install
+# Windows
+1 . Using Package Manager (e.g., Chocolatey):
 
-## License
-This program is open-source and available under the MIT License. Feel free to use, modify, and distribute it.
+    powershell
+    choco install boost
+2 . Building from Source:
 
-## Author
-[Simon Paul]
+Download Boost from the official website.
+Extract the downloaded archive.
+Open the Command Prompt and navigate to the Boost directory.
+Run the following commands:
 
-[simonpaul055648@gmail.com]
+    cmd
+    bootstrap.bat
+    b2
+## Compiling and Running
+After installing Boost, compile the program using a C++ compiler. For example:
 
-Enjoy using the MultiTimer Suite! 🕰️ :)
+    bash
+    g++ -o combined_program combined_program.cpp -lboost_date_time
+    
+Replace combined_program with the name of your C++ source file.
 
+Run the compiled program:
 
+    bash
+    ./combined_program
+# Usage
+Follow on-screen instructions to use the lap timer, stopwatch, time display, and time zone features.
 
+    javascript
 
-
+    Replace `combined_program.cpp` with the actual name of your C++ source file.
