@@ -15,6 +15,8 @@ Before compiling the program, ensure that you have the Boost C++ Libraries insta
 1. **Using Package Manager (e.g., apt or yum):**
    ```bash
    sudo apt-get install libboost-all-dev  # For Debian-based systems
+
+   
    bash
    sudo yum install boost-devel         
 # For Red Hat-based systems
