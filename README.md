@@ -62,3 +62,5 @@ Follow on-screen instructions to use the lap timer, stopwatch, time display, and
 
     This should address the formatting issues.
 
+## Author
+[Simon Paul]
