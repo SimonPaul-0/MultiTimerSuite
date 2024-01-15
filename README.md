@@ -1,4 +1,4 @@
-Certainly! Here's a corrected version of the README:
+---
 
 # Combined Program: Lap Timer, Stopwatch, Time, and Time Zone
 
@@ -74,3 +74,5 @@ If you'd like to contribute to this project, feel free to fork the repository, m
 ## Author
 
 [Simon Paul]
+
+---
