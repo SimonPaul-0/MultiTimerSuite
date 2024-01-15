@@ -55,6 +55,8 @@ After installing Boost, compile the program using a C++ compiler. For example:
    ```bash
    g++ -o combined_program combined_program.cpp -lboost_date_time -std=c++11
    ```
+Here, -o combined_program specifies the output executable name, and combined_program.cpp is the source file. You can replace combined_program with the desired name for your       compiled executable.
+   
 Run the compiled program:
 
    ```bash
