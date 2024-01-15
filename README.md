@@ -8,68 +8,63 @@ Before compiling the program, ensure that you have the Boost C++ Libraries insta
 ### Installing Boost
 *Linux*
 
-    Using Package Manager (e.g., apt or yum):
+1. **Using Package Manager (e.g., apt or yum):**
 
-    bash
+    ```bash
+    # For Debian-based systems
+    sudo apt-get install libboost-all-dev
 
-# For Debian-based systems
-sudo apt-get install libboost-all-dev
+    # For Red Hat-based systems
+    sudo yum install boost-devel
+    ```
 
-# For Red Hat-based systems
-sudo yum install boost-devel
+2. **Building from Source:**
+- Download Boost from the official website.
+- Extract the downloaded archive.
+- Navigate to the Boost directory and run the following commands:
 
-Building from Source:
+    ```bash
+    ./bootstrap.sh
+    ./b2
+    sudo ./b2 install
+    ```
 
-    Download Boost from the official website.
-    Extract the downloaded archive.
-    Navigate to the Boost directory and run the following commands:
+*Windows*
 
-    bash
+1. **Using Package Manager (e.g., Chocolatey):**
 
-        ./bootstrap.sh
-        ./b2
-        sudo ./b2 install
+    ```powershell
+    choco install boost
+    ```
 
-Windows
+2. **Building from Source:**
+- Download Boost from the official website.
+- Extract the downloaded archive.
+- Open the Command Prompt and navigate to the Boost directory.
+- Run the following commands:
 
-    Using Package Manager (e.g., Chocolatey):
+    ```cmd
+    bootstrap.bat
+    b2
+    ```
 
-    powershell
-
-choco install boost
-
-Building from Source:
-
-    Download Boost from the official website.
-    Extract the downloaded archive.
-    Open the Command Prompt and navigate to the Boost directory.
-    Run the following commands:
-
-    cmd
-
-        bootstrap.bat
-        b2
-
-Compiling and Running
+## Compiling and Running
 
 After installing Boost, compile the program using a C++ compiler. For example:
 
-bash
-
-g++ -o combined_program combined_program.cpp -lboost_date_time -std=c++11
-
-Replace combined_program with the name of your C++ source file.
-
+   ```bash
+   g++ -o combined_program combined_program.cpp -lboost_date_time -std=c++11
+   ```
 Run the compiled program:
 
-bash
-
-./combined_program
-
-Usage
+   ```bash
+   ./combined_program
+   ```
+## Usage
 
 Follow on-screen instructions to use the lap timer, stopwatch, time display, and time zone features.
-Author
+## Author
 
 [Simon Paul]
 
+Feel free to customize this program based on your specific project details.
